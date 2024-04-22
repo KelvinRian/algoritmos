@@ -2,6 +2,7 @@
 {
     public static class PesquisaBinaria
     {
+        //Tempo de execução O(log n)
         public static int? Pesquisar(IList<int> lista, int item)
         {
             var baixo = 0;
